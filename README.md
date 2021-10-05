@@ -15,8 +15,8 @@ Following limitations compared to command line execution exist:
 
 ## Use with Docker (recommended)
 
-* `docker pull xaverklemenschits/jupyter-c-kernel`
-* `docker run -p 8888:8888 xaverklemenschits/jupyter-c-kernel`
+* `docker pull opus-meum/jupyter-c-kernel`
+* `docker run -p 8888:8888 opus-meum/jupyter-c-kernel`
 * Copy the given URL containing the token, and browse to it. For instance:
 
  ```bash
@@ -38,7 +38,7 @@ Works only on Linux and OS X. Windows is not supported yet. If you want to use t
 ### Step-by-step
 
 ```bash
-git clone https://github.com/XaverKlemenschits/jupyter-c-kernel.git
+git clone https://github.com/opus-meum/jupyter-c-kernel.git
 cd jupyter-c-kernel
 pip install -e .  # for system install: sudo install .
 cd jupyter_c_kernel && install_c_kernel --user # for sys install: sudo install_c_kernel
@@ -65,7 +65,7 @@ change the code in real-time in Docker. For that, just run the docker box like
 that:
 
 ```bash
-git clone https://github.com/XaverKlemenschits/jupyter-c-kernel.git
+git clone https://github.com/opus-meum/jupyter-c-kernel.git
 cd jupyter-c-kernel
 docker build -t myName/jupyter .
 docker run -v $(pwd):/tmp/jupyter_c_kernel/ -p 8888:8888 myName/jupyter

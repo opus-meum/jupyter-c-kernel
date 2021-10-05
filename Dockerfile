@@ -1,5 +1,5 @@
 FROM jupyter/minimal-notebook
-MAINTAINER Xaver Klemenschits <klemenschits@iue.tuwien.ac.at>
+MAINTAINER James Hepworth <james@opusmeum.dev>
 
 USER root
 
